@@ -13,6 +13,10 @@ html {
   margin: auto;
   max-height: 65vh;
 }
+section .carousel-inner .carousel-item .carousel-caption {
+  color: #000000;
+  bottom: -15px;
+}
 body footer {
   background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
