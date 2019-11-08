@@ -17,6 +17,7 @@
 	width:100%;
     padding:20px 18px 0 18px;
     margin: 10px 0;
+    position: center;
 	/*box-shadow:0px 1px 1px rgba(0,0,0,0.15);*/
 	border-radius:3px;
     background:#fff;
@@ -95,6 +96,7 @@
 	.navmenu {
 		position:relative;
         display:inline-block;
+        z-index: 1;
 	}
 
 	.navmenu ul.active {
@@ -102,8 +104,9 @@
 	}
 
 	.navmenu ul {
-		width:100%;
-		position:absolute;
+		width:auto;
+        position:absolute;
+        z-index: 1;
 		top:120%;
         left:50%;
         transform: translateX(-50%);
@@ -111,6 +114,7 @@
 		/*box-shadow:0px 1px 1px rgba(0,0,0,0.15);*/
 		border-radius:3px;
         background:#fff;
+        
         /*it's white so that I can see the margin of the container*/
 	}
 
@@ -124,7 +128,8 @@
 		transform:translate(0%, -100%);
 		border-left:7px solid transparent;
 		border-right:7px solid transparent;
-		border-bottom:7px solid rgba(45, 226, 230, 0.8);
+        border-bottom:7px solid rgba(45, 226, 230, 0.8);
+        z-index: 1;
 	}
 
 	.navmenu li {
