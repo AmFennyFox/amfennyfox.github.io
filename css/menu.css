@@ -115,7 +115,8 @@
         padding:10px 18px;
 		/*box-shadow:0px 1px 1px rgba(0,0,0,0.15);*/
 		border-radius:3px;
-        background:transparent;
+		background:transparent;
+		flex-wrap: wrap;
         
         /*it's white so that I can see the margin of the container*/
 	}
