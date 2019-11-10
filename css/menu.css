@@ -126,7 +126,7 @@
 		height:0px;
 		position:absolute;
 		top:0%;
-		left:31px;
+		left:50px;
 		content:'';
 		transform:translate(0%, -100%);
 		border-left:7px solid transparent;
@@ -138,7 +138,9 @@
 		margin:5px 0px 5px 0px;
 		float:none;
 		display:block;
-		border-bottom: solid lawngreen;
+		border-left: solid lawngreen;
+		border-radius: 20px;
+		padding-left: 5px;
 	}
 
 	.navmenu a {
