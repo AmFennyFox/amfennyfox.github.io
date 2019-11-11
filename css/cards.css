@@ -1,4 +1,25 @@
 body main .section1 .card {
+    border-radius: 50px;
+    border: none;
+    margin: 10px 20px;
+    background: transparent;
+}
+body main .section1 .card img {
+    border-radius: 25px;
+}
+body main .section1 .leftcard img {
+    border-top-left-radius: 50px;
+}
+body main .section1 .rightcard img {
+    border-top-right-radius: 50px;
+}
+body main .section1 .card .card-title, body main .section1 .card .card-text {
+    background: #10BAD1;
+    border-radius: 5px;
+}
+
+
+/*body main .section1 .card {
     background: transparentt;
     border: nonet;
     color: whitesmoket;
@@ -13,4 +34,4 @@ body main .section1 .card:last-child {
         margin-left: none;
         flex-wrap: wrap;
     }
-}
+}*/
