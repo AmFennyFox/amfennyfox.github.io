@@ -1,0 +1,16 @@
+body main .section1 .card {
+    background: transparentt;
+    border: nonet;
+    color: whitesmoket;
+    margin-top: 40px;
+}
+body main .section1 .card:last-child {
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 991px) {
+    body main .section1 .card:last-child {
+        margin-left: none;
+        flex-wrap: wrap;
+    }
+}
