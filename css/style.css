@@ -17,6 +17,10 @@ section .carousel-inner .carousel-item .carousel-caption {
   color: #000000;
   bottom: -15px;
 }
+body main .section1 .container {
+  background: rgba(234, 0, 255, 0.473);
+  border-radius: 90px;
+}
 body footer {
   background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
