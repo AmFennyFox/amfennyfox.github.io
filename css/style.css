@@ -21,8 +21,12 @@ body main .section1 .container {
   background: rgba(234, 0, 255, 0.473);
   border-radius: 90px;
 }
+body main .jumbotron {
+  background: rgba(192, 192, 192, 0.8);
+  color: #000000;
+}
 body footer {
-  background-color: #000000;
+  background-color: transparent;
   color: rgba(255, 255, 255, 0.7);
   font-family: outrun-font;
   margin: 20px;
