@@ -14,7 +14,8 @@ body main .section1 .rightcard img {
     border-top-right-radius: 50px;
 }
 body main .section1 .card .card-title, body main .section1 .card .card-text {
-    background: #10BAD1;
+    background: transparent;
+    color: whitesmoke;
     border-radius: 5px;
 }
 
