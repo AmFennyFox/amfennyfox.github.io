@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
-<title>Furry Frenzy Official</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url(img/coming_soon.jpg);
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
-<body>
+  <head>
+    <title>Furry Frenzy Official</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="css/coming_soon.css">
+  </head>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    FF
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center"><a href="https://www.virtuadopt.com/feed.php?id=5503870"><img src="https://www.virtuadopt.com/images/adoptables/5503870.png"></a></p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </div>
-</div>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display: none;" id="myDiv" class="bgimg w3-display-container w3-animate-opacity w3-text-white animate-bottom">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <p>Wallpaper by <a href="https://natewren.com/rad-pack-80s-themed-hd-wallpapers/" target="_blank">Nate Wren</a></p>
+      </div>
+      <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+        <hr class="w3-border-grey" style="margin:auto;width:40%">
+        <p class="w3-large w3-center"><a href="https://www.virtuadopt.com/feed.php?id=5503870"><img src="https://www.virtuadopt.com/images/adoptables/5503870.png"></a></p>
+      </div>
+      <div class="w3-display-bottomleft w3-padding-large">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+      </div>
+    </div>
 
-</body>
+    <script>
+      var myVar;
+        
+      function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+      function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+      </script>
+  </body>
 </html>
