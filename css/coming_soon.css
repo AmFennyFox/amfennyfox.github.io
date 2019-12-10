@@ -17,12 +17,14 @@ body p {
     font-size: 15px;
 }
 body #link {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
     position: fixed;
     align-items: center;
     justify-content: center;
+    left: 47%;
+    top: 48%;
 }
 body #link a {
     text-decoration: none;
